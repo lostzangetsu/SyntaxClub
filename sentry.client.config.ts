@@ -12,7 +12,7 @@ Sentry.init({
     Sentry.replayIntegration(),
     Sentry.feedbackIntegration({
       // Additional SDK configuration goes in here, for example:
-      colorScheme: "light",
+      colorScheme: "dark",
       isNameRequired: true,
       isEmailRequired: true,
     }),
