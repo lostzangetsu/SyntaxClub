@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+
+/* Vercel Add-on */
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: "Syntax Syndicate",
@@ -26,6 +29,7 @@ export default function RootLayout({
           >
             {children}
             <SpeedInsights />
+            <Analytics />
           </ThemeProvider>
       </body>
     </html>
