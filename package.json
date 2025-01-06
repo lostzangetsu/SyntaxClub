@@ -13,6 +13,7 @@
     "@react-three/fiber": "^8.17.10",
     "@sentry/nextjs": "^8.47.0",
     "@types/three": "^0.171.0",
+    "@vercel/speed-insights": "^1.1.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.15.0",
     "mini-svg-data-uri": "^1.4.4",
