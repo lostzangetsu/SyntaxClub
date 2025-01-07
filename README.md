@@ -46,10 +46,10 @@ Follow these steps to set up the project locally:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/your-username/your-repo-name.git
+$ git clone https://github.com/lostzangetsu/SyntaxClub.git
 
 # Navigate to the project folder
-$ cd your-repo-name
+$ cd SyntaxClub
 
 # Install dependencies
 $ npm install
